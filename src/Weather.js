@@ -7,18 +7,17 @@ export default function Weather() {
     <div className="Weather">
       <div className="row">
         <div className="col-4">
-          <p className="currentTemperature">16°</p>
-          <p className="units">
+          <spam className="currentTemperature">16°</spam>
+          <spam className="units">
             <a href="#" className="active">
               C°
             </a>{" "}
-            |
+            |{" "}
             <a href="#" className="fahrenheit">
               F°
             </a>
-          </p>
+          </spam>
         </div>
-
         <div className="col-4">
           <p className="iconCurrentBox">
             <img src="" alt="" className="iconCurrentDay" />
@@ -42,7 +41,7 @@ export default function Weather() {
       </div>
       <form>
         <div className="row">
-          <div className="col-8">
+          <div className="col-6">
             <input
               type="text"
               className="form-control"
@@ -50,8 +49,8 @@ export default function Weather() {
               placeholder="Type a city"
             />
           </div>
-          <div className="col-4">
-            <input className="btn btn-secondary" value="Search"></input>
+          <div className="col-6">
+            <button className="btn">Search</button>
           </div>
         </div>
       </form>
