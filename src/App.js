@@ -12,6 +12,7 @@ export default function App() {
           <a
             href="https://github.com/brustalli/final-project-react"
             target="_blank"
+            rel="noopener noreferrer"
           >
             code
           </a>{" "}

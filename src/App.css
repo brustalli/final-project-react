@@ -1,6 +1,11 @@
+.App {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
 .App footer {
   font-family: "Roboto", sans-serif;
-  font-size: 12px;
+  font-size: 11px;
   color: coral;
-  margin-left: 70px;
+  margin-top: 5px;
 }

@@ -7,7 +7,7 @@ export default function Weather() {
     <div className="Weather">
       <div className="row">
         <div className="col-4">
-          <spam className="currentTemperature">16°</spam>
+          <spam className="currentTemperature">16</spam>
           <spam className="units">
             <a href="#" className="active">
               C°
@@ -31,22 +31,20 @@ export default function Weather() {
           </ul>
         </div>
       </div>
-      <div className="row">
-        <div className="col-6">
-          <ul>
-            <li className="city">Edinburgh</li>
-            <li className="currentDay">Monday</li>
-          </ul>
-        </div>
-      </div>
+
+      <ul>
+        <li className="city">Edinburgh</li>
+        <li className="currentDay">Monday</li>
+      </ul>
       <form>
         <div className="row">
           <div className="col-6">
             <input
               type="text"
               className="form-control"
-              autocomplete="off"
+              autoComplete="off"
               placeholder="Type a city"
+              autoFocus="on"
             />
           </div>
           <div className="col-6">
