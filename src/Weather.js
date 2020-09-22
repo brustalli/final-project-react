@@ -1,14 +1,23 @@
+import Axios from "axios";
 import React from "react";
-
+import axios from "axios";
 import "./Weather.css";
 
 export default function Weather() {
+  function handleResponse(response) {
+    console.log(response.data);
+  }
+
+  const apiKey = "9c9113d065806620d583cdfa492f9ff6";
+  let city = "Edinburgh";
+  const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(handleResponse);
   return (
     <div className="Weather">
       <div className="row">
         <div className="col-4">
-          <spam className="currentTemperature">16</spam>
-          <spam className="units">
+          <span className="currentTemperature">16</span>
+          <span className="units">
             <a href="#" className="active">
               C°
             </a>{" "}
@@ -16,7 +25,7 @@ export default function Weather() {
             <a href="#" className="fahrenheit">
               F°
             </a>
-          </spam>
+          </span>
         </div>
         <div className="col-4">
           <p className="iconCurrentBox">

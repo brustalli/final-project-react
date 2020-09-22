@@ -13,6 +13,8 @@
 }
 .Weather .units {
   font-size: 13px;
+  position: relative;
+  top: -35px;
 }
 .Weather .units .active {
   color: darksalmon;
@@ -23,20 +25,21 @@
   margin-left: -20px;
   margin-top: -20px;
 }
-.currentDay {
+.Weather .currentDay {
   font-size: 14px;
   margin-left: -20px;
 }
 
-.description {
+.Weather .description {
   font-size: 14px;
   font-weight: lighter;
+  margin-top: 30px;
 }
-.description:first-letter {
+.Weather .description:first-letter {
   text-transform: capitalize;
 }
 
-.humidity,
+.Weather .humidity,
 .wind {
   font-size: 11px;
 }
