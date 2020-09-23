@@ -1,6 +1,6 @@
 .Weather {
   background-color: #2c2e30;
-  color: darksalmon;
+  color: #ec6e4c;
   font-family: "Roboto", sans-serif;
   border-radius: 20px;
   box-shadow: 3px 6px 4px#2c2e30a1;
@@ -17,7 +17,7 @@
   top: -35px;
 }
 .Weather .units .active {
-  color: darksalmon;
+  color: #ec6e4c;
 }
 .Weather .city {
   font-size: 20px;
