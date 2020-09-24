@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
-import FormattedDate from "./FormattedDate";
+import WeatherInfo from "./WeatherInfo";
+
 import "./Weather.css";
 
 export default function Weather(props) {
@@ -23,45 +24,7 @@ export default function Weather(props) {
   if (weatherData.ready) {
     return (
       <div className="Weather">
-        <div className="row">
-          <div className="col-4">
-            <span className="currentTemperature">
-              {Math.round(weatherData.temperature)}
-            </span>
-            <span className="units">
-              <a href="#" className="active">
-                C°
-              </a>{" "}
-              |{" "}
-              <a href="#" className="fahrenheit">
-                F°
-              </a>
-            </span>
-          </div>
-          <div className="col-4">
-            <p className="iconCurrentBox">
-              <img
-                src={weatherData.iconUrl}
-                alt={weatherData.description}
-                className="iconCurrentDay"
-              />
-            </p>
-          </div>
-          <div className="col-4">
-            <ul>
-              <li className="description">{weatherData.description}</li>
-              <li className="humidity">Humidity {weatherData.humidity}%</li>
-              <li className="wind">Wind {weatherData.wind} km/h</li>
-            </ul>
-          </div>
-        </div>
-
-        <ul>
-          <li className="city">{weatherData.city}</li>
-          <li className="currentDay">
-            <FormattedDate date={weatherData.date} />
-          </li>
-        </ul>
+        <WeatherInfo data={weatherData} />
         <form>
           <div className="row">
             <div className="col-6">

@@ -1,12 +1,11 @@
 .Weather {
-  background-color: #2c2e30;
-  color: #ec6e4c;
-  font-family: "Roboto", sans-serif;
   border-radius: 20px;
   box-shadow: 3px 6px 4px#2c2e30a1;
   padding: 20px;
+  background-color: #2c2e30;
+  color: #ec6e4c;
+  font-family: "Roboto", sans-serif;
 }
-
 .Weather .currentTemperature {
   font-size: 65px;
   margin-left: 15px;
