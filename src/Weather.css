@@ -1,5 +1,5 @@
 .Weather {
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: 3px 6px 4px#2c2e30a1;
   padding: 20px;
   background-color: #2c2e30;
@@ -17,10 +17,6 @@
   top: -35px;
 }
 
-.Weather canvas {
-  margin-top: 20px;
-  margin-left: 35px;
-}
 .Weather .city {
   font-size: 18px;
   font-weight: lighter;
@@ -31,10 +27,8 @@
 }
 
 .Weather .description {
-  font-size: 15px;
-  font-weight: lighter;
-  margin-top: 25px;
-  margin-left: -30px;
+  font-size: 12px;
+  display: inline-block;
 }
 .Weather .description:first-letter {
   text-transform: capitalize;
@@ -52,13 +46,13 @@ ul {
 
 .form-control {
   box-shadow: 2px 4px 4px#2c2e30a1;
-  border-radius: 20px;
+  border-radius: 30px;
   margin-left: 25px;
 }
 .Weather .btn {
   background-color: #36383a;
   box-shadow: 2px 4px 4px#2c2e30a1;
-  border-radius: 50px;
+  border-radius: 10px;
   color: #ec6e4c;
   margin-left: 5px;
 }
