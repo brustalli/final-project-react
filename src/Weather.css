@@ -16,16 +16,13 @@
   position: relative;
   top: -35px;
 }
-.Weather .units .active {
-  color: #ec6e4c;
-}
 
 .Weather canvas {
   margin-top: 20px;
   margin-left: 35px;
 }
 .Weather .city {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: lighter;
   margin-top: -20px;
 }
