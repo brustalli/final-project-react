@@ -9,7 +9,6 @@
 
 .Weather .currentTemperature {
   font-size: 65px;
-  margin-left: 30px;
 }
 .Weather .units {
   font-size: 13px;
@@ -20,7 +19,6 @@
 .Weather .city {
   font-size: 18px;
   font-weight: lighter;
-  margin-top: -20px;
 }
 .Weather .currentDay {
   font-size: 14px;
@@ -35,9 +33,13 @@
 }
 
 .Weather .humidity,
-.wind {
-  font-size: 13px;
-  margin-left: -30px;
+.wind,
+.feelsLike {
+  font-size: 11px;
+}
+
+.Weather .numbers {
+  font-size: 18px;
 }
 
 ul {
