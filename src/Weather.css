@@ -7,35 +7,45 @@
   font-family: "Roboto", sans-serif;
 }
 
-.Weather .currentTemperature {
-  font-size: 65px;
+.WeatherInfo canvas {
+  margin-left: 10px;
 }
+
+.Weather .currentTemperature {
+  font-size: 90px;
+  margin-left: 35px;
+}
+
 .Weather .units {
-  font-size: 13px;
+  font-size: 10px;
   position: relative;
-  top: -35px;
+  top: -55px;
 }
 
 .Weather .city {
-  font-size: 18px;
-  font-weight: lighter;
+  font-size: 50px;
+  position: relative;
+  bottom: -45px;
+  margin-left: 45px;
 }
 .Weather .currentDay {
-  font-size: 14px;
+  font-size: 12px;
+  margin-top: 15px;
+  margin-left: 25px;
 }
 
 .Weather .description {
   font-size: 12px;
-  display: inline-block;
-}
-.Weather .description:first-letter {
-  text-transform: capitalize;
+  margin-left: 25px;
 }
 
 .Weather .humidity,
 .wind,
 .feelsLike {
+  padding-inline-start: -40px;
   font-size: 11px;
+  background-color: #36383a;
+  border-radius: 10px;
 }
 
 .Weather .numbers {
