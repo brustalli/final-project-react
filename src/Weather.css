@@ -8,12 +8,12 @@
 }
 
 .WeatherInfo canvas {
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .Weather .currentTemperature {
-  font-size: 90px;
-  margin-left: 35px;
+  font-size: 85px;
+  margin-left: 15px;
 }
 
 .Weather .units {
@@ -23,26 +23,29 @@
 }
 
 .Weather .city {
-  font-size: 50px;
+  font-size: 35px;
+  margin-left: 35px;
   position: relative;
-  bottom: -45px;
-  margin-left: 45px;
+  bottom: -20px;
 }
 .Weather .currentDay {
   font-size: 12px;
+  margin-left: 35px;
   margin-top: 15px;
-  margin-left: 25px;
 }
 
 .Weather .description {
-  font-size: 12px;
-  margin-left: 25px;
+  font-size: 18px;
+  margin-left: 35px;
+  position: relative;
+  margin-top: -30px;
+  text-transform: capitalize;
 }
 
 .Weather .humidity,
 .wind,
 .feelsLike {
-  padding-inline-start: -40px;
+  margin-top: 15px;
   font-size: 11px;
   background-color: #36383a;
   border-radius: 10px;
@@ -59,6 +62,7 @@ ul {
 .form-control {
   box-shadow: 2px 4px 4px#2c2e30a1;
   border-radius: 30px;
+  margin-top: 20px;
   margin-left: 25px;
 }
 .Weather .btn {
@@ -66,5 +70,6 @@ ul {
   box-shadow: 2px 4px 4px#2c2e30a1;
   border-radius: 10px;
   color: #ec6e4c;
+  margin-top: 20px;
   margin-left: 5px;
 }

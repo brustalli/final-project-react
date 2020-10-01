@@ -6,12 +6,12 @@ import WeatherTemperature from "./WeatherTemperature";
 export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
-      <FormattedDate date={props.data.date} />
-      <spam className="description">{props.data.description}</spam>
-      <WeatherIcon code={props.data.icon} />
       <div className="row">
         <div className="col-6">
           <spam className="city">{props.data.city}</spam>
+          <FormattedDate date={props.data.date} />
+          <spam className="description">{props.data.description}</spam>
+          <WeatherIcon code={props.data.icon} />
         </div>
         <WeatherTemperature celsius={props.data.temperature} />
       </div>
