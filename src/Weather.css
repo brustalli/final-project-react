@@ -12,8 +12,8 @@
 }
 
 .Weather .currentTemperature {
-  font-size: 85px;
-  margin-left: 15px;
+  font-size: 90px;
+  margin-left: 10px;
 }
 
 .Weather .units {
@@ -31,14 +31,12 @@
 .Weather .currentDay {
   font-size: 12px;
   margin-left: 35px;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .Weather .description {
   font-size: 18px;
   margin-left: 35px;
-  position: relative;
-  margin-top: -30px;
   text-transform: capitalize;
 }
 
