@@ -8,9 +8,9 @@ export default function WeatherInfo(props) {
     <div className="WeatherInfo">
       <div className="row">
         <div className="col-6">
-          <spam className="city">{props.data.city}</spam>
+          <span className="city">{props.data.city}</span>
           <FormattedDate date={props.data.date} />
-          <spam className="description">{props.data.description}</spam>
+          <span className="description">{props.data.description}</span>
           <WeatherIcon code={props.data.icon} />
         </div>
         <WeatherTemperature celsius={props.data.temperature} />
